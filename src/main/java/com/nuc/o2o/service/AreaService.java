@@ -6,7 +6,7 @@ import java.util.List;
 
 /**
  * @author Calvin
- * @Description:
+ * @Description:获得区域
  */
 public interface AreaService {
 
