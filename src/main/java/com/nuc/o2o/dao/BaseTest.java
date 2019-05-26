@@ -1,4 +1,4 @@
-package com.nuc.o2o;
+package com.nuc.o2o.dao;
 
 import org.junit.runner.RunWith;
 import org.springframework.test.context.ContextConfiguration;

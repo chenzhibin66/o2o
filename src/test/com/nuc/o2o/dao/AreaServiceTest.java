@@ -1,7 +1,8 @@
-package com.nuc.o2o.service;
+package com.nuc.o2o.dao;
 
-import com.nuc.o2o.BaseTest;
+
 import com.nuc.o2o.entity.Area;
+import com.nuc.o2o.service.AreaService;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 

@@ -23,6 +23,10 @@ public class Shop {
     private Integer enableStatus;
     private String advice;
 
+    private Area area;
+    private ShopCategory shopCategory;
+    private ShopCategory parentCategory;
+
     public Long getShopId() {
         return shopId;
     }
@@ -141,5 +145,29 @@ public class Shop {
 
     public void setAdvice(String advice) {
         this.advice = advice;
+    }
+
+    public Area getArea() {
+        return area;
+    }
+
+    public void setArea(Area area) {
+        this.area = area;
+    }
+
+    public ShopCategory getShopCategory() {
+        return shopCategory;
+    }
+
+    public void setShopCategory(ShopCategory shopCategory) {
+        this.shopCategory = shopCategory;
+    }
+
+    public ShopCategory getParentCategory() {
+        return parentCategory;
+    }
+
+    public void setParentCategory(ShopCategory parentCategory) {
+        this.parentCategory = parentCategory;
     }
 }
