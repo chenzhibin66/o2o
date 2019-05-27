@@ -149,6 +149,7 @@
       <artifactId>commons-collections</artifactId>
       <version>3.2</version>
     </dependency>
+    <!--图片处理 -->
     <!-- https://mvnrepository.com/artifact/net.coobird/thumbnailator -->
     <dependency>
       <groupId>net.coobird</groupId>

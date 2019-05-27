@@ -43,4 +43,15 @@ public class ShopDaoTest extends BaseTest {
         int effectedNum = shopDao.insertShop(shop);
         assertEquals(1, effectedNum);
     }
+
+    @Test
+    public void testUpdateShop() {
+        Shop shop = new Shop();
+        shop.setShopId(1L);
+        shop.setShopDesc("测试描述");
+        shop.setShopAddr("测试地址");
+        shop.setLastEditTime(new Date());
+        int effectedNum = shopDao.updateShop(shop);
+        assertEquals(1, effectedNum);
+    }
 }
