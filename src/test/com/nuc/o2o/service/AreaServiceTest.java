@@ -1,6 +1,7 @@
-package com.nuc.o2o.dao;
+package com.nuc.o2o.service;
 
 
+import com.nuc.o2o.dao.BaseTest;
 import com.nuc.o2o.entity.Area;
 import com.nuc.o2o.service.AreaService;
 import org.junit.Test;
